@@ -1,0 +1,61 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+html,
+body {
+  position: relative;
+  color: #212121;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+  margin-top: 4rem;
+}
+.footer {
+  flex-shrink: 0;
+}
+.heroText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(195, 255, 0);
+}
+.bgimage {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.minHeight {
+  min-height: 85vh;
+}
+
+.minHeight2 {
+  min-height: 65vh;
+}
+
+.minHeight3 {
+  min-height: 25vh;
+}
+
+.rounded-corners {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.bgGradient-warm {
+  background-image: linear-gradient(40deg, red, yellow);
+}
+
+.bgGradient-cool {
+  background-image: linear-gradient(40deg, rgb(14, 227, 174), rgb(17, 64, 220));
+}
